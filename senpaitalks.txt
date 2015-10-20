@@ -1,0 +1,6 @@
+先輩の話リンク集
+
+小野こうへい
+<a href="ok.html">
+          <img src="senpais/ok.png"></a>
+        </div>

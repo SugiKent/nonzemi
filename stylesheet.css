@@ -1,0 +1,395 @@
+body {
+  font-family: "メイリオ", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: #660066;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  margin: 0px;
+  opacity: 0.85;
+  position: fixed;
+  border-bottom: 1px solid #333333;
+  z-index: 1;
+}
+.header1 {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  margin: 0px;
+  position: fixed;
+  border-bottom: 1px solid #333333;
+  z-index: 1;
+}
+.header img {
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin: 5px 0px 0px 50px;
+}
+.header1 img {
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin: 5px 0px 0px 50px;
+}
+.menu1 li {
+  display: inline;
+  align: right;
+  padding-right: 10px;
+  margin-right: auto;
+}
+.menu1 {
+  list-style: none;
+  margin-right: 60px;
+}
+.menu2 {
+  display: none;
+}
+.main {
+  width: 100%;
+    /* 固定ナビの高さ分のパディング */
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.main1 {
+  width: 1100px;
+    /* 固定ナビの高さ分のパディング */
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.profile {
+  background-color: #ffffff margin-bottom: 30px
+}
+.profile h2 {
+  color: #333333;
+  margin: 30px 0px 15px 0px;
+}
+.profile p {
+  line-height: 240%;
+  color: #333333;
+  font-size: 18px;
+}
+.profile img {
+  height: 60px;
+}
+.what-top{
+  width: 700px;
+  margin: 50px auto;
+}
+#nav{
+  font-size: 30px;
+  width: 700px;
+  height: 70px;
+  align: middle;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  background-color: #202f55;
+  color: #ffffff;
+}
+.fixed{
+  position: fixed;
+top: 60px;
+}
+.fixed1{
+  position: static;
+}
+.what {
+  width: 700px;
+  color: #333333;
+  background-color: #e9dacb;
+  padding-bottom: 30px;
+}
+.speak1{
+  text-align: left;
+  width: 400px;
+  border-radius: 0.9em;
+  background-color: #941f57;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.speak2{
+  width: 75%;
+  border-radius: 0.9em;
+  background-color: #f8f8ff;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.what font{
+  color: #ff6347;
+}
+.what-bottom img{
+  width: 400px;
+  height: auto;
+}
+.zemiinfo {
+  color: #333333;
+  font-style: bold;
+}
+.zemiinfo h3 {
+  color: #333333;
+  letter-spacing: 2px;
+}
+.foods1 td{
+  border: 5px solid;
+  border-color: transparent;
+  border-radius: 30px;
+  background-color: #4682B4;
+  text-align: center;
+  padding: 15px 15px;
+}
+.foods2{
+  display: none;
+  margin: 10px auto;
+  align: center;
+  text-align: center;
+}
+.foods2 td{
+  border: 5px solid;
+  border-color: transparent;
+  border-radius: 30px;
+  background-color: #4682B4;
+  padding: 3px 10px;
+}
+.twitter-timeline{
+  margin: 10px;
+}
+.senpailist {
+  text-align: center;
+  margin-top: 20px;
+}
+.senpailist img {
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+}
+.senpaipro {
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.senpaipro img {
+  width: 200px;
+  height: 150px;
+  margin: 30px auto;
+}
+.sempaipro p {
+  text-align: left;
+}
+.senpaitalk {
+  float: left;
+  width: 68%;
+  height: auto;
+  padding-bottom: 30px;
+  border-left: 1px solid #333333;
+}
+.senpaitalk p {
+  margin: 0px 0px 0px 30px;
+}
+.senpaitalk h4 {
+  margin: 20px 10px;
+}
+.tweets h3 {
+  color: #333333;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.calender1{
+  margin: 30px auto;
+}
+.calender2{
+  display: none;
+}
+.calender3{
+  display: none;
+}
+.footer {
+  clear: left;
+  width: 100%;
+  height: 380px;
+  border-top: 1px solid #333333;
+  margin: 30px 0px 0px;
+  padding: 10px auto;
+  background-color: #522886;
+}
+.footer p {
+  font-size: 16px;
+  line-height: 190%;
+  margin: 20px auto;
+  color: #ffffff;
+}
+
+
+/* ウィンドウ幅が0〜500pxの場合に適用するCSS */
+
+@media screen and (max-width:500px) {
+  .main {
+    width: auto;
+    padding: 60px 10px 40px 10px;
+  }
+  .main1{
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .header {
+    height: 60px;
+  }
+  .header1 {
+      height: 60px;
+    }
+  .header img {
+    width: 180px;
+    height: 30px;
+    margin: 15px 0px 5px 15px;
+    float: left;
+  }
+  .header1 img {
+    width: 180px;
+    height: 30px;
+    margin: 15px 0px 5px 15px;
+    float: left;
+  }
+  .menu1 {
+    display: none;
+  }
+  .menu2 {
+    display: inline;
+    float: right;
+    align: right;
+    margin: 8px;
+    font-size: 14px;
+  }
+  .menu2 li {
+    align: right;
+    padding-right: 5px;
+    list-style: none;
+  }
+  .header-menu {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    color: gray;
+    cursor: pointer;
+  }
+  #language-list {
+    position: absolute;
+    top: 60px;
+    left: 50px
+  }
+  #language-list li {
+    width: 300px;
+    line-height: 50px;
+    padding-left: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    background-color: #483d8b;
+    color: #ffffff;
+    font-size: 25px;
+  }
+  #language-list li:hover {
+    background-color: #f1f2f2;
+  }
+  .hide-list {
+    display: none;
+  }
+  .profile img {
+    height: 40px;
+  }
+  .profile h2 {
+    font-size: 15px;
+  }
+  .profile p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .what-top{
+    width: 90%;
+    margin: 38px 0px;
+    padding: 0px 12px;
+  }
+  .what-top h1{
+    font-size: 20px;
+  }
+  .what-top p{
+    font-size: 14px;
+  }
+  #nav{
+    width: 100%;
+    font-size: 25px;
+    height: 60px;
+  }
+  .what-bottom h2{
+    font-size: 15.8px;
+    margin-top: 20px;
+  }
+  .what{
+    width: 100%;
+    margin: 0px;
+  }
+  .what p{
+    font-size: 14px;
+  }
+  .speak1{
+    width: 50%;
+    margin-right: 10px;
+  }
+  .speak2{
+    width: 70%;
+    margin-left: 10px;
+  }
+  .what-bottom img{
+    width: 300px;
+    height: auto;
+  }
+  .others h3 {
+    font-size: 15px;
+  }
+  .zemiinfo p{
+    font-size: 12px;
+  }
+  .senpailist img {
+    width: 150px;
+    height: 112.5px;
+    padding: 10px;
+  }
+  .senpaipro {
+    float: none;
+    width: 100%;
+  }
+  .senpaitalk {
+    float: none;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #333333;
+    font-size: 13px;
+  }
+  .foods1{
+display: none;
+  }
+  .foods2{
+    display: table;
+  }
+  .calender1{
+    display: none;
+  }
+  .calender2{
+    display: block;
+    margin: 20px auto;
+  }
+  .calender3{
+    display: none;
+  }
+  .footer p {
+    font-size: 13px;
+  }
+}
